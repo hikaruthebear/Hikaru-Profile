@@ -1,0 +1,105 @@
+/* General Styling */
+:root {
+  --primary: #5CE455;
+  --secondary: #222125;
+}
+
+html {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-content {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  padding: 150px 20px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: #555;
+}
+
+img {
+  max-width:50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Education Section Styling */
+.education {
+  color: var(--primary);
+  padding: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: var(--secondary);
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-head {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.head-label{
+  padding: 10px;
+  border: solid 1px var(--secondary);
+}
+.data {
+  padding: 10px;
+  border: 1px solid #68d14e;
+  color: white;
+  text-align: left;
+}
+/* 
+.table-body:nth-child(even) {
+  background-color: #f4f4f4;
+} */
