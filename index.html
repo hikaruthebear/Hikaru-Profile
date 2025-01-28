@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
     <link rel="stylesheet" href="style2.css" />
+    <script src="script.js"></script>
   </head>
+
 
   <body>
     <!-- Header Section -->
@@ -24,21 +26,22 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-      <div class="hero-content">
+      <div class="container" id="intro-container">
         <h1 class="intro">
           Hi, I’m <span id="name">Alejandro</span>.<br />
           Information Technology Student
         </h1>
-        <p class="paragraph">
+        <button class="primary-button" onclick="showElement('info')">Learn more</button>
+      </div>
+      <p class="paragraph" id="info">
           Hi! I’m a 20-year-old, second-year college student at Bicol University
           with a passion for coding and problem-solving. Skilled in C, C++, and
           Java, I’m eager to create impactful projects and explore new
           technologies. Welcome to my portfolio—let’s build something great
           together!
         </p>
-        <div class="container">
-          <img src="image.jpg" alt="Alejandro's profile photo" />
-        </div>
+      <div class="container">
+        <img src="image.jpg" alt="Alejandro's profile photo" />
       </div>
     </section>
 
@@ -98,7 +101,10 @@
     <section class="projects">
       <h1>Projects</h1>
       <div class="project-placeholder">
-        <p>Coming soon! Stay tuned for exciting projects that showcase my skills and creativity.</p>
+        <p>
+          Coming soon! Stay tuned for exciting projects that showcase my skills
+          and creativity.
+        </p>
       </div>
     </section>
 
@@ -106,9 +112,14 @@
     <section class="contact">
       <h1>Contact</h1>
       <ul class="contact-list">
-        <li class="contact-item">Facebook: <a href="#">Alejandro De Claro Beato</a></li>
+        <li class="contact-item">
+          Facebook: <a href="#">Alejandro De Claro Beato</a>
+        </li>
         <li class="contact-item">Discord: Hikaru#1522</li>
-        <li class="contact-item">Email: <a href="beatoalejandro1@gmail.com">beatoalejandro1@gmail.com</a></li>
+        <li class="contact-item">
+          Email:
+          <a href="beatoalejandro1@gmail.com">beatoalejandro1@gmail.com</a>
+        </li>
       </ul>
     </section>
   </body>

@@ -99,7 +99,18 @@ img {
   color: white;
   text-align: left;
 }
-/* 
-.table-body:nth-child(even) {
-  background-color: #f4f4f4;
-} */
+
+.primary-button {
+
+  padding: 20px 100px;
+  border-style: none;
+  border-radius: 30px;
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: 16px;
+  margin: 30px; 
+}
+
+:hover.primary-button {
+  background-color: yellow;
+}
